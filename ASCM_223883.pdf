@@ -1,0 +1,438 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>SpinIIHost</title>
+		<meta content="Microsoft Visual Studio.NET 7.0" name="GENERATOR">
+		<meta content="Visual Basic 7.0" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<link href="css/global_styles.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body>
+		<script type="text/javascript">
+       <!-- 
+				function SetJavaScriptEnabled()
+				{
+					document.getElementById('JavascriptEnabled').value = '1';
+				}
+        -->
+		</script>
+		<form method="post" action="./logon.aspx" id="frmMain" autocomplete="off">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D74BCB92" />
+			<table width="100%" cellspacing="0">
+				<tr>
+					<td>
+						<!-- Start Header -->
+						
+<table border="0" cellSpacing="0" cellPadding="0" width="100%" bgColor="#ffffff">
+	<tr>
+		<td vAlign="bottom" align="left">
+			<table border="0" cellSpacing="0" cellPadding="0" width="100%">
+				<tr>
+					<td><IMG border="0" alt="Spin 2 Logo" align="left" src="images/spin_logo.gif" width="92"
+							height="63"><IMG border="0" alt="Spatial Information System" align="left" src="images/spin_logotype.gif"
+							width="348" height="62">
+						<table cellPadding="5" align="left">
+							<tr>
+								<td vAlign="bottom" noWrap><IMG border="0" alt="" src="images/blue_arrow.gif" width="5" height="9">
+									<A class="cgicHeader" title="Contact Us" href="contactus.aspx">Contact Us</A><br>
+									<!--<img src="images/blue_arrow.gif" alt="" width="5" height="9" border="0"> <a class="cgicHeader" href="http://search.gov.ab.ca/" title="Search">
+										Search</a>--></td>
+								<td  valign="top">
+<script language="javascript" type="text/javascript">
+
+ 	var leftminutes;
+ 	var minutes;
+ 	
+ 	var hiddentextboxname ="uctrlFullHeader_ShutdownAlert1_Hidden1";
+ 	var hiddentextboxname2 ="uctrlFullHeader_ShutdownAlert1_Hidden2";
+ 	var maindev ="uctrlFullHeader_ShutdownAlert1_divNews";
+ 	var maindev1 ="uctrlFullHeader_ShutdownAlert1_mainDivShutdown";
+ 	
+function blinkOn()
+{
+
+	if(document.getElementById(maindev1))
+	{
+	    var pagerequest = document.location.href;
+	    
+		if (pagerequest.toUpperCase().indexOf("LOGON") > 0)
+		{
+		
+			document.getElementById(maindev1).className = "shutdownmsg"
+				var table = document.getElementById ("shutdowntable");
+						if (table.rows.length > 1) {
+							var x=table.rows[0].cells;
+							if(x.length>1)
+							{
+								x[1].innerText="";
+							}
+						}
+						
+		}
+		else if(pagerequest.toUpperCase().indexOf("ASPX") <= 0)
+		{
+			document.getElementById(maindev1).className = "shutdownmsg"
+				var table = document.getElementById ("shutdowntable");
+						if (table.rows.length > 1) {
+							var x=table.rows[0].cells;
+							if(x.length>1)
+							{
+								x[1].innerText="";
+							}
+						}
+						
+		}
+		else if(pagerequest.toUpperCase().indexOf("MAP")>0)
+		{
+						document.getElementById(maindev1).className = "shutdownmsgalternateformap";
+						var table = document.getElementById ("shutdowntable");
+						if (table.rows.length > 1) {
+							table.deleteRow(0);
+							var x=table.rows[0].cells;
+							if(x.length>0)
+							{
+								x[0].colSpan="1";
+							}
+						}
+						
+		}
+		else 
+		{
+			document.getElementById(maindev1).className = "shutdownmsgalternate";
+		}
+	}
+	
+	if (document.getElementById(hiddentextboxname)) 
+	{
+		minutes =document.getElementById(hiddentextboxname).value; 
+		if(minutes > 0)
+		{
+			if(document.getElementById("divBlink"))
+			{	
+				if(document.getElementById("divBlinkFinal"))
+				{				 
+					if (document.getElementById("divBlinkFinal").innerText != "")
+					{
+						document.getElementById(hiddentextboxname2).value = document.getElementById("divBlinkFinal").innerText;
+						var divParent = document.getElementById(maindev);
+						var divChild = document.getElementById("divBlinkFinal");
+						divParent.removeChild(divChild);
+					}
+				}
+				var message = document.getElementById("divBlink").innerHTML.replace("[X]",minutes);
+				message = message.replace(leftminutes,minutes);
+				if (minutes==1)
+				{	
+					message = message.replace("minutes","minute");
+				}				
+				
+				document.getElementById(maindev).className="";
+				
+				document.getElementById("divBlink").innerHTML=message;
+				document.getElementById("divBlink").style.visibility="visible";
+				leftminutes = minutes;
+				document.getElementById(hiddentextboxname).value = minutes-1;
+				setTimeout("blinkOff()",57000);
+				return;
+			}
+		}
+		else
+		{
+			if((document.getElementById("divBlinkFinal") == null))
+			{
+				if(document.getElementById(maindev))
+				{
+					var newdiv = document.createElement("div");
+					newdiv.id = "divBlinkFinal";
+					newdiv.innerText = document.getElementById(hiddentextboxname2).value ;
+					var divParent = document.getElementById(maindev);
+					divParent.appendChild(newdiv);
+				}
+			}
+			if(document.getElementById("divBlink"))
+			{
+				var divParent = document.getElementById(maindev);
+				var divChild = document.getElementById("divBlink");
+				divParent.removeChild(divChild);
+			}
+			if(document.getElementById("divBlinkFinal"))
+			{
+				document.getElementById("divBlinkFinal").style.visibility="visible";				
+			}
+			setTimeout("blinkOff()",1500);
+			return;
+			
+		}
+	}
+    setTimeout("blinkOff()",100);
+    
+}
+ 
+function blinkOff()
+{
+	if (document.getElementById(hiddentextboxname)) 
+	{
+		minutes =document.getElementById(hiddentextboxname).value; 
+		if(minutes > 0)
+		{
+			if(document.getElementById("divBlink"))
+				{
+					document.getElementById("divBlink").style.visibility="hidden";
+				}
+		}
+		else
+		{
+			if(document.getElementById("divBlinkFinal"))
+			{
+				document.getElementById("divBlinkFinal").style.visibility="hidden";
+			}
+		}	
+		setTimeout("blinkOn()",100);
+   }
+}
+function jschange() {
+
+	if(document.getElementById(maindev1).style.display=="none") {
+		document.getElementById(maindev1).style.display="block";
+} else {
+	document.getElementById(maindev1).style.display="none";
+	}
+}
+</script>
+
+<script language="javascript">blinkOn();</script>
+<input name="uctrlFullHeader$ShutdownAlert1$Hidden1" type="hidden" id="uctrlFullHeader_ShutdownAlert1_Hidden1" /> <input name="uctrlFullHeader$ShutdownAlert1$Hidden2" type="hidden" id="uctrlFullHeader_ShutdownAlert1_Hidden2" />
+</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td bgColor="#eeeeee"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="2%" align="left" style="padding-right: 10px">
+			<a href="http://www.gov.ab.ca"><IMG border="0" alt="Government of Alberta" src="images/GoA_Logo.png" width="147" height="42"></a>
+		</td>
+	</tr>
+</table>
+<table border="0" cellSpacing="0" cellPadding="0" width="100%" bgColor="#eeeeee">
+	<tr>
+		<td>
+<table cellpadding="3" cellspacing="0" border="0" style="margin: 5px">
+	<tr>
+		<td class="cgicHeader" style="height: 22px; width: 100%">
+			<div id="uctrlFullHeader_BreadCrumb_pnlCrumb" class="cgicHeader">
+	
+                <STRONG>Location:</STRONG>
+			<a tabindex="-1" href="http://www.gov.ab.ca/home/" target="_blank">Government of Alberta</a><span> > </span><a tabindex="-1" href="http://governmentservices.gov.ab.ca/" target="_blank">Service Alberta</a><span> > </span><span tabindex="-1">Spin2 Home</span>
+</div>
+		</td>
+        <td class="cgicHeader" style="text-align: right">
+            <span id="uctrlFullHeader_BreadCrumb_lblVersion" class="versionNumber"><font color="#999999">4.11.0-25038.1</font></span>
+        </td>
+	</tr>
+</table>
+</td>
+	</tr>
+	<tr>
+		<td bgColor="#cccccc" height="1" vAlign="bottom"></td>
+	</tr>
+</table>
+
+						<!-- End Header -->
+					</td>
+				</tr>
+				<tr>
+					<td class="gridBackground">
+						<table width="100%" cellspacing="0" style="border-collapse:collapse;margin-left:-1px">
+							<tr>
+								<td>
+									<table width="100%" cellspacing="0">
+										<tr>
+											<td>
+												<!-- Start MenuBar -->
+												
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><div id="MenuBar_pnlMenuItems">
+	<a tabindex="-1" href="/SpinII/aboutspin.aspx" target="_top"><img onMouseOver="this.src=&#39;/SpinII/images/navigation/images/about_spin_on.gif&#39;;" onMouseOut="this.src=&#39;/SpinII/images/navigation/images/about_spin_off.gif&#39;;" src="/SpinII/images/navigation/images/about_spin_off.gif" /></a><a tabindex="-1" href="/SpinII/feeschedule.aspx" target="_top"><img onMouseOver="this.src=&#39;/SpinII/images/navigation/images/fee_schedule_on.gif&#39;;" onMouseOut="this.src=&#39;/SpinII/images/navigation/images/fee_schedule_off.gif&#39;;" src="/SpinII/images/navigation/images/fee_schedule_off.gif" /></a><a tabindex="-1" href="/SpinII/contactus.aspx" target="_top"><img onMouseOver="this.src=&#39;/SpinII/images/navigation/images/contact_us_on.gif&#39;;" onMouseOut="this.src=&#39;/SpinII/images/navigation/images/contact_us_off.gif&#39;;" src="/SpinII/images/navigation/images/contact_us_off.gif" /></a><a tabindex="-1" class="linktext" onclick="window.open(&#39;/SpinII/spin2help.aspx?referrer=logon.aspx&#39;,&#39;help&#39;, &#39;height=480 width=650 toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes&#39;);"><img onMouseOver="this.src=&#39;/SpinII/images/navigation/images/help_on.gif&#39;;" onMouseOut="this.src=&#39;/SpinII/images/navigation/images/help_off.gif&#39;;" src="/SpinII/images/navigation/images/help_off.gif" /></a><a tabindex="-1" href="/SpinII/faq.aspx" target="_top"><img onMouseOver="this.src=&#39;/SpinII/images/navigation/images/faq_on.gif&#39;;" onMouseOut="this.src=&#39;/SpinII/images/navigation/images/faq_off.gif&#39;;" src="/SpinII/images/navigation/images/faq_off.gif" /></a><a tabindex="-1" class="linktext" onclick="window.open(&#39;splash.aspx&#39;,&#39;WelcomeSplash&#39;, &#39;height=500,width=675,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes&#39;);"><img onMouseOver="this.src=&#39;/SpinII/images/navigation/images/notice_board_on.gif&#39;;" onMouseOut="this.src=&#39;/SpinII/images/navigation/images/notice_board_off.gif&#39;;" src="/SpinII/images/navigation/images/notice_board_off.gif" /></a><a tabindex="-1" title="SpinII/AltaII Release Information" href="/SpinII/News" target="_blank"><img onMouseOver="this.src=&#39;/SpinII/images/navigation/images/publications_on.gif&#39;;" onMouseOut="this.src=&#39;/SpinII/images/navigation/images/publications_off.gif&#39;;" src="/SpinII/images/navigation/images/publications_off.gif" /></a>
+</div></td>
+	</tr>
+</table>
+
+												<!-- End MenuBar -->
+											</td>
+											<td>
+												<span id="TurnaroundTime1_lblPageContent"><div align="left"><font style="font-size: 10pt; font-family: Arial;" color="#ff0000" face="Verdana, Arial, Helvetica, sans-serif"><span style="font-size: 11px;"><strong><u>Currently Registerin</u><u>g</u>:</strong></span></font></div><strong style="font-size: 10pt; font-family: Arial"></strong>
+<div style="font-size: 10pt; font-family: Arial;"><span style="font-size: 10pt; font-family: Arial;">Land Titles Documents received on June 10, 2025.</span></div>
+<div style="font-size: 10pt; font-family: Arial;"><span style="font-family: Arial;"><span style="font-size: 10pt;">Survey Plans/Documents received on July 17, 2025.</span></span></div>
+<div>&nbsp;</div>
+<div style="font-size: 10pt; font-family: Arial"><span style="font-family: Arial">If your documents contain any&nbsp;Foreign Ownership declarations, they</span></div>
+<div><span style="font-size: 10pt; font-family: Arial">may require up to an additional 10&nbsp;business days processing time.&nbsp;</span></div>
+<div>&nbsp;</div></span>
+
+
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr class="gridBackgroundGrey">
+								<td>
+									<table width="100%" cellspacing="0" cellpadding="0">
+										<tr>
+											<td style="WIDTH: 216px;">
+                                                <img alt="" src="images/glass_home.gif">
+                                            </td>
+											<td style="WIDTH: 375px">
+												<span id="WelcomeMessage1_lblPageContent"><div style="font-family: Arial; color: #0000ff" align="center"></div>
+<div></div>
+<div>&nbsp;</div>
+<div id="pastingspan1">
+<div></div>
+<div><strong style="font-size: 18pt; color: #993300"><span style="color: #6e9899">Welcome To SPIN</span><span style="color: #6e9899">2</span></strong></div>
+<div><strong style="font-size: 12pt; color: #993300"><span style="color: #6e9899"><span style="color: #7eb0b2">Alberta Land Titles and&nbsp;Surveys&nbsp;Spatial Information System</span></span></strong><strong style="font-size: 12pt; color: #993300"> </strong></div>
+<p style="font-size: 10pt; font-family: Arial"><span style="font-size: 12pt">Search here for land titles data products, registered survey plans, township images, survey control markers, soil capability information and other land information services. </span></p>
+<div>
+<ul style="font-size: 12pt; font-family: Arial">
+<li>Please see the <span style="color: #6e9899"><u><a style="color: #6e9899" href="https://alta.registries.gov.ab.ca/SpinII/faq.aspx" target="_blank" _blank?=""><strong>FAQ</strong></a></u></span> for additional information. 
+<li style="text-align: justify">The <span style="color: #6e9899"><u><a style="color: #6e9899" href="https://alta.registries.gov.ab.ca/SpinII/spin2help.aspx?referrer=faq.aspx" target="_blank"><strong>Help</strong></a></u></span> tab includes information pertaining to the application function you are using. </li></ul>
+<div style="font-size: 12pt; font-family: Arial"></div>
+<div style="font-size: 12pt; font-family: Arial"><u>SPIN2 Hours of Availability</u>:</div>
+<div style="font-size: 12pt; font-family: Arial">Monday to Friday - 7:00 a.m. to 9:00 p.m.</div>
+<div style="font-size: 12pt; font-family: Arial">Saturday - 7:00 a.m. to 11:00 p.m.</div>
+<div><span style="font-size: 12pt; font-family: Arial">Sunday - 12:00 p.m. to 11:00 p.m.</span></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div></div></div>
+<div style="font-size: 10pt; font-family: Arial" align="left"></div></span>
+
+
+											</td>
+											<td>&nbsp;</td> <!-- allows 100% with fixed widths --> <!-- style="WIDTH: 226px" -->
+											<td align="right" style="WIDTH: 226px">
+												<div id="Messages_pnlMessageContainer" style="PADDING-BOTTOM: 5px">
+	
+	
+    
+	    
+	
+
+</div>
+
+												&nbsp;
+												
+<script language='javascript'>
+
+    var popup = window.open('splash.aspx', 'WelcomeSplash', 'height=500,width=675,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes', true);
+    setTimeout(function () {
+        if (!popup || popup.outerHeight === 0) {
+            //First Checking Condition Works For IE & Firefox
+            //Second Checking Condition Works For Chrome
+            alert("Many SPIN2 search features are dependent on Pop-Up Window notifications.  Please disable your Pop-Up blocker and refresh this page.  You can also add this site to your browser’s exception list.");
+            //window.location.href = 'splash.aspx';
+        } else {
+            //Popup Blocker Is Disabled
+            popup.focus()
+        }
+    }, 750);
+
+</script>
+
+<input type="hidden" name="JavascriptEnabled" value="1" />
+<TABLE id="LogonTable" style="WIDTH: 329px; HEIGHT: 216px;" cellSpacing="0" cellPadding="0" border="0" class="table">
+	<TR>
+		<TD class="green" style="WIDTH: 311px; HEIGHT: 60px" colspan="3" vAlign="top"><IMG style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 326px; PADDING-TOP: 0px; BORDER-LEFT-STYLE: none; HEIGHT: 52px; BORDER-BOTTOM-STYLE: none" height="52" src="images/home_page_images/login_members.gif" width="326"></TD>
+	</TR>
+	<TR>
+		<TD class="green" style="PADDING-LEFT: 5px; WIDTH: 159px">
+			<span id="uctrlLogon_lblLogonName" class="homeToolTip">Logon Name</span>
+			&nbsp;</TD>
+		<TD class="green" style="WIDTH: 58px">
+			<input name="uctrlLogon$txtLogonName" type="text" maxlength="60" id="uctrlLogon_txtLogonName" tabindex="1" class="homeInputName" /></TD>
+		<TD rowspan="2" class="green" style="WIDTH: 112px; PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; clear:right" vAlign="top" >
+			<span id="uctrlLogon_lblForgottenYourPassword" class="homeToolTip">Password Reset?</span><br />
+			<a id="uctrlLogon_lnkForgotPassword" tabindex="4" class="cgicHeader" href="/SpinII/passwordreset.aspx">Click Here...</a></TD>
+	</TR>
+	<TR>
+		<TD class="green" style="PADDING-LEFT: 5px; WIDTH: 159px" vAlign="top">
+			<span id="uctrlLogon_lblPassword" class="homeToolTip">Password</span>
+			&nbsp;</TD>
+		<TD class="green" style="WIDTH: 58px" vAlign="top" colspan="2">
+			<input name="uctrlLogon$txtPassword" type="password" id="uctrlLogon_txtPassword" tabindex="2" class="homeInputPassword" autocomplete="off" /></TD>
+	</TR>
+	<TR>
+		<TD class="green" style="WIDTH: 614px" colspan="3" vAlign="bottom">
+			<input type="image" name="uctrlLogon$cmdLogonAccount" id="uctrlLogon_cmdLogonAccount" tabindex="3" onMouseOver="this.src=&#39;images/home_page_images/login_enter_off.gif&#39;;" onMouseOut="this.src=&#39;images/home_page_images/login_enter_on.gif&#39;;" src="images/home_page_images/login_enter_on.gif" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;uctrlLogon$cmdLogonAccount&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" /></TD>
+		<TD class="green" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none" vAlign="bottom"></TD>
+	</TR>
+	<tr height="2">
+		<td colspan="3"><img src="images/spacer.gif" height="2" width="2" border="0"></td>
+	</tr>
+	<TR>
+		<TD class="lightGreen" style="WIDTH: 614px" align="left" colspan="3">
+			<input type="image" name="uctrlLogon$cmdLogonGuest" id="uctrlLogon_cmdLogonGuest" tabindex="5" src="images/home_page_images/login_guest.gif" align="left" /></TD>
+		<TD style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none"></TD>
+	</TR>
+</TABLE>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr class="darkGrey">
+								<td>
+									<img src="images/spacer.gif" width="1" height="19">
+								</td>
+							</tr>
+							<tr class="gridBackgroundGrey" style="border-collapse:collapse;margin-left:-1px">
+								<td>
+									<img src="images/spacer.gif" width="1" height="19">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="images/spacer.gif" width="1" height="12">
+								</td>
+							</tr>
+						</table>
+					</td>
+				<tr>
+					<td>
+						<!-- Start Footer -->
+						
+<table cellPadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td style="BORDER-TOP: 2px solid #CCCCCC; PADDING-TOP: 7px; position: relative;" class="cgicHeader" align="center">
+			<a target="_blank" class="cgicHeader" title="Department Home" tabindex="-1" href="http://governmentservices.gov.ab.ca/">
+				Service Alberta</a> | <a class="cgicHeader" title="Contact Us" href="contactus.aspx" tabindex="-1">
+				Contact Us</a> | <a class="cgicHeader" title="Privacy Statement" href="privacy_statement.aspx" target="_blank"
+				tabindex="-1">Privacy Statement</a> | <a class="cgicHeader" title="Legal Notices" href="copyright.aspx" target="_blank" tabindex="-1">
+				Legal Notices</a>
+			<br>
+			The user agrees to the terms and conditions set out in the <a class="cgicHeader" title="Copyright and Disclaimer" target="_blank" href="copyright.aspx" tabindex="-1">Copyright and Disclaimer</a> statement.<br>
+			<br>
+			© 2002-2025 <a target="_blank" class="cgicHeader" href="http://www.gov.ab.ca" tabindex="-1" title="Government of Alberta">Government of Alberta</a>
+            
+            <a target="_blank" class="cgicHeader" title="Government of Alberta" href="http://www.gov.ab.ca" tabindex="-1" style="position: absolute; right: 25px; top: 10px;">
+                <IMG height="42" alt="Government of Alberta" src="images/GoA_Logo.png" width="147" border="0">
+			</a>
+		</td>
+	</tr>
+</table>
+
+						<!-- End Footer -->
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</HTML>
